@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>声劇テキスト変換アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>声劇テキスト変換アプリ</h1>
+        <div class="input-section">
+            <h2>元のテキスト</h2>
+            <textarea id="inputText" placeholder="ここにテキストを入力してください..."></textarea>
+        </div>
+        <div class="button-section">
+            <button id="convertBtn">変換</button>
+            <button id="clearBtn">クリア</button>
+        </div>
+        <div class="output-section">
+            <h2>変換後のテキスト</h2>
+            <textarea id="outputText" readonly></textarea>
+        </div>
+        <div class="copy-section">
+            <button id="copyBtn">コピー</button>
+        </div>
+        <div class="export-section">
+            <button id="exportBtn">TXTファイルでエクスポート</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
